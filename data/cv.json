@@ -1,0 +1,52 @@
+{
+  "basics": {
+    "name": "Valentín Vera",
+    "label": "Estudiante de Desarrollo Web Front-End.",
+    "image": "assets/me.jpg",
+    "email": "valentinvera2805@gmail.com",
+    "phone": "+54 9 3487-232181",
+    "summary": "Cuento con una sólida experiencia en liderazgo de equipos y resolución de problemas. Poseo excelentes habilidades de comunicación, delegación de tareas y disfruto colaborar en entornos de equipo para lograr resultados excepcionales. También me centro en crear experiencias digitales excepcionales a través de un código limpio y eficiente.",
+    "location": {
+      "region": "Argentina",
+      "province": "Buenos Aires,",
+      "city": "Zárate."
+    }
+  },
+  "skills": [
+    {
+      "name": "HTML (HyperText Markup Language)"
+    },
+    {
+      "name": "CSS (Cascading Style Sheets)"
+    },
+    {
+      "name": "JavaScript"
+    },
+    {
+      "name": "Ingles Básico"
+    }
+  ],
+  "competences": [
+    {
+      "name": "Liderazgo de equipos"
+    },
+    {
+      "name": "Comunicación efectiva"
+    },
+    {
+      "name": "Resolución de problemas"
+    },
+    {
+      "name": "Gestión y división de tareas"
+    },
+    {
+      "name": "Buen uso/manejo de computadora"
+    }
+  ],
+  "education": [
+    {
+      "institution": "Escuela de Educación Secundaria N°4 Dr José María Güerci (Ex Colegio Nacional)",
+      "certificate": "Bachiller en Economía y Administración"
+    }
+  ]
+}

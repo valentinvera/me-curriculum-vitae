@@ -1,0 +1,19 @@
+---
+import Section from "@/components/Section.astro"
+import { basics } from "@cv"
+
+const { summary } = basics
+---
+
+<Section>
+  <div class="mb-16">
+    <h2 class="mb-2 text-2xl font-bold">Presentación:</h2>
+    <p class="text-balance">{summary}</p>
+  </div>
+</Section>
+
+<style>
+  h2 {
+    border-bottom: 1px black solid;
+  }
+</style>

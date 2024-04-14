@@ -1,0 +1,27 @@
+---
+import Competences from "@/components/sections/Competences.astro"
+import Education from "@/components/sections/Education.astro"
+import Hero from "@/components/sections/Hero.astro"
+import Presentation from "@/components/sections/Presentation.astro"
+import Skills from "@/components/sections/Skills.astro"
+import Layout from "@/layouts/Layout.astro"
+---
+
+<Layout title="Curriculum Vitae | Valentín Vera">
+  <header class="mb-16">
+    <Hero />
+  </header>
+  <main>
+    <Presentation />
+    <Skills />
+    <Competences />
+    <Education />
+  </main>
+</Layout>
+
+<style>
+  header,
+  main {
+    color: black;
+  }
+</style>

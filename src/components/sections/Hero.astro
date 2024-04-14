@@ -1,0 +1,35 @@
+---
+import Section from "@/components/Section.astro"
+import { basics } from "@cv"
+
+const { name, label, image, email, phone, location } = basics
+---
+
+<Section>
+  <div class="container mt-6 flex justify-between">
+    <div class="info">
+      <h1 class="text-[2rem] font-bold">{name}</h1>
+      <p>{label}</p>
+      <span>{location.region} {location.province} {location.city}</span>
+    </div>
+    <figure class="">
+      <img src={image} alt={name} />
+    </figure>
+  </div>
+  <div>
+    <p class="font-bold">Contacto:</p>
+    <p>{email}</p>
+    <p>{phone}</p>
+  </div>
+</Section>
+
+<style>
+  figure {
+    width: 128px;
+  }
+
+  img {
+    width: 100%;
+    border-radius: 1rem;
+  }
+</style>

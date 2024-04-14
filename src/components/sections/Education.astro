@@ -1,0 +1,26 @@
+---
+import Section from "@/components/Section.astro"
+import { education } from "@cv"
+---
+
+<Section>
+  <div class="mb-16">
+    <h2 class="mb-2 text-2xl font-bold">Educación:</h2>
+    {
+      education.map(({ institution, certificate }) => {
+        return (
+          <>
+            <p>{institution}</p>
+            <p>{certificate}</p>
+          </>
+        )
+      })
+    }
+  </div>
+</Section>
+
+<style>
+  h2 {
+    border-bottom: 1px black solid;
+  }
+</style>
